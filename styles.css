@@ -1,0 +1,79 @@
+/* Estilos generales del sitio */
+body {
+    font-family: 'Inter', sans-serif; /* Se usa la tipografía Inter como similar a Helvetica */
+    line-height: 1.6; /* Espaciado entre líneas para mejorar la lectura */
+}
+
+/* Estilos del header o cabecera */
+header .nav-link {
+    font-weight: 600; /* Negrita para los enlaces de navegación */
+    font-size: 1rem;  /* Tamaño de fuente estándar */
+}
+
+header .btn-outline-primary {
+    border-color: #007bff; /* Color del borde del botón */
+    color: #007bff; /* Color del texto del botón */
+}
+
+header .btn-outline-primary:hover {
+    background-color: #007bff; /* Color de fondo al hacer hover */
+    color: #fff; /* Color del texto cuando se pasa el cursor */
+}
+
+/* Estilos de la sección principal "Hero" */
+section h1 {
+    font-weight: 600; /* Negrita para el título principal */
+    font-size: 2.5rem; /* Tamaño grande del título */
+    margin-bottom: 1.5rem; /* Espaciado debajo del título */
+}
+
+section p {
+    font-weight: 400; /* Peso normal para el párrafo */
+    font-size: 1.2rem; /* Tamaño más grande del texto del párrafo */
+    margin-bottom: 2rem; /* Espaciado debajo del párrafo */
+}
+
+section .btn-primary {
+    background-color: #007bff; /* Color del botón principal */
+    border-color: #007bff; /* Borde del botón */
+}
+
+.card {
+    background-color: #fff; /* Fondo blanco de la tarjeta del formulario */
+    border: none; /* Sin bordes visibles */
+}
+
+.card h3 {
+    font-weight: 600; /* Negrita para el título del formulario */
+    font-size: 1.5rem; /* Tamaño mediano */
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #f8f9fa; /* Fondo claro del pie de página */
+    color: #6c757d; /* Texto en color gris suave */
+}
+
+footer a {
+    color: #007bff; /* Color del enlace en el pie de página */
+    text-decoration: none; /* Sin subrayado */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Subrayado al hacer hover sobre el enlace */
+}
+
+/* Estilos responsivos: Ajustes para pantallas más pequeñas */
+@media (max-width: 768px) {
+    section h1 {
+        font-size: 2rem; /* Reducir el tamaño del título en pantallas pequeñas */
+    }
+
+    section p {
+        font-size: 1rem; /* Reducir el tamaño del párrafo en pantallas pequeñas */
+    }
+
+    .nav-link {
+        font-size: 0.9rem; /* Reducir el tamaño del texto de navegación en dispositivos móviles */
+    }
+}
