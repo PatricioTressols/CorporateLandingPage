@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma Corporativa - Potenciá tu negocio</title>
+    <!-- Bootstrap CSS: Framework CSS para simplificar el diseño responsivo -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts: Se utiliza Inter para simular Helvetica o Neue -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Archivo de estilos personalizados -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header o cabecera del sitio -->
+    <header class="container-fluid py-3 bg-white border-bottom">
+        <div class="container d-flex justify-content-between align-items-center">
+            <!-- Logo del sitio -->
+            <div>
+                <img src="logo.png" alt="Logo" class="img-fluid" width="50">
+            </div>
+            <!-- Menú de navegación -->
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a href="#" class="nav-link text-dark">Inicio</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-dark">Acerca</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-dark">Paquetes</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-dark">Contacto</a></li>
+                </ul>
+            </nav>
+            <!-- Botón para "Consulta Gratuita" -->
+            <div>
+                <a href="#" class="btn btn-outline-primary">Consulta Gratuita</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sección principal o "Hero" -->
+    <section class="container-fluid bg-dark text-white py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Columna izquierda: Título y párrafo de presentación -->
+                <div class="col-md-6">
+                    <h1>Unite a nosotros para hacer crecer tu negocio.</h1>
+                    <p>Potenciá tu negocio con **CorporativoX**, una plantilla profesional y moderna.</p>
+                    <a href="#" class="btn btn-primary">Contactanos</a>
+                </div>
+                <!-- Columna derecha: Formulario para consulta gratuita -->
+                <div class="col-md-6">
+                    <div class="card p-4 shadow-lg">
+                        <h3 class="mb-4">Obtén una consulta gratuita</h3>
+                        <!-- Formulario para la consulta -->
+                        <form id="contact-form">
+                            <!-- Campo para ingresar el nombre -->
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="name" placeholder="Tu Nombre" required>
+                            </div>
+                            <!-- Campo para ingresar el email -->
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Correo Electrónico</label>
+                                <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com" required>
+                            </div>
+                            <!-- Campo para escribir un mensaje -->
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Mensaje</label>
+                                <textarea class="form-control" id="message" rows="3" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                            </div>
+                            <!-- Botón para enviar el formulario -->
+                            <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de página o footer -->
+    <footer class="container-fluid bg-light py-4 mt-5">
+        <div class="container text-center">
+            <p>Desarrollado por Patricio Manuel Pérez</p>
+            <p>Este proyecto fue realizado para demostrar mis habilidades en el desarrollo web, utilizando HTML, CSS, Bootstrap y JavaScript. El objetivo fue replicar un diseño a partir de una imagen, asegurando una alta fidelidad al original, con diseño responsivo y agregando interactividad con JavaScript.</p>
+            <p>Podés contactarme en:</p>
+            <ul class="list-unstyled">
+                <li><strong>Email:</strong> <a href="mailto:Patriciotressols@gmail.com" class="text-primary">Patriciotressols@gmail.com</a></li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/PatricioTressols" class="text-primary" target="_blank">https://github.com/PatricioTressols</a></li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/patricio-manuel-p%C3%A9rez?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="text-primary" target="_blank">Mi Perfil en LinkedIn</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS: Librería para funcionalidad de los componentes de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Archivo JavaScript personalizado -->
+    <script src="app.js"></script>
+</body>
+</html>
